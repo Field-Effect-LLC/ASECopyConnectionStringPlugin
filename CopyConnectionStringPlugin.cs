@@ -83,12 +83,14 @@ namespace CopyConnectionStringPlugin
             
             if (view.Equals(_TablesWindow))
             {
-                connectionString = _PluginContext.Database.Database.TableDefs[node.ToString()].Connect;
+                connectionString = (_PluginContext.Database as dynamic)
+                    .Database.TableDefs[node.ToString()].Connect;
             }
 
             if (view.Equals(_QueriesWindow))
             {
-                connectionString = _PluginContext.Database.Database.QueryDefs[node.ToString()].Connect;
+                connectionString = (_PluginContext.Database as dynamic)
+                    .Database.QueryDefs[node.ToString()].Connect;
             }
 
             return connectionString;

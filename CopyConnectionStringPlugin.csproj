@@ -31,38 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AccessApi, Version=1.7.3.0, Culture=neutral, PublicKeyToken=85bd60fd6dfed89b, processorArchitecture=MSIL">
-      <HintPath>..\packages\NetOffice.Access.1.7.4.4\lib\net45\AccessApi.dll</HintPath>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
-    </Reference>
-    <Reference Include="ADODBApi, Version=1.7.3.0, Culture=neutral, PublicKeyToken=cc99d88d783d7f41, processorArchitecture=MSIL">
-      <HintPath>..\packages\NetOffice.Access.1.7.4.4\lib\net45\ADODBApi.dll</HintPath>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
-    </Reference>
-    <Reference Include="DAOApi, Version=1.7.3.0, Culture=neutral, PublicKeyToken=3d873987acdf56da, processorArchitecture=MSIL">
-      <HintPath>..\packages\NetOffice.Access.1.7.4.4\lib\net45\DAOApi.dll</HintPath>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
-    </Reference>
-    <Reference Include="MSComctlLibApi, Version=1.7.3.0, Culture=neutral, PublicKeyToken=bba1bf2f2fb1e5f0, processorArchitecture=MSIL">
-      <HintPath>..\packages\NetOffice.Access.1.7.4.4\lib\net45\MSComctlLibApi.dll</HintPath>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
-    </Reference>
-    <Reference Include="MSDATASRCApi, Version=1.7.3.0, Culture=neutral, PublicKeyToken=a98e294f8fb95dcc, processorArchitecture=MSIL">
-      <HintPath>..\packages\NetOffice.Access.1.7.4.4\lib\net45\MSDATASRCApi.dll</HintPath>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
-    </Reference>
-    <Reference Include="NetOffice, Version=1.7.3.0, Culture=neutral, PublicKeyToken=acf636d62c39f8f5, processorArchitecture=MSIL">
-      <HintPath>..\packages\NetOffice.Core.1.7.4.4\lib\net45\NetOffice.dll</HintPath>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
-    </Reference>
-    <Reference Include="OfficeApi, Version=1.7.3.0, Culture=neutral, PublicKeyToken=7c1c3e9d16cace88, processorArchitecture=MSIL">
-      <HintPath>..\packages\NetOffice.Core.1.7.4.4\lib\net45\OfficeApi.dll</HintPath>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
-    </Reference>
-    <Reference Include="OWC10Api, Version=1.7.3.0, Culture=neutral, PublicKeyToken=df8d2bc021e344f5, processorArchitecture=MSIL">
-      <HintPath>..\packages\NetOffice.Access.1.7.4.4\lib\net45\OWC10Api.dll</HintPath>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -73,10 +41,6 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="VBIDEApi, Version=1.7.3.0, Culture=neutral, PublicKeyToken=a3637beacf571e8a, processorArchitecture=MSIL">
-      <HintPath>..\packages\NetOffice.Core.1.7.4.4\lib\net45\VBIDEApi.dll</HintPath>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CopyConnectionStringPlugin.cs" />
@@ -99,9 +63,6 @@
       <Project>{E73BB233-D88B-44A7-A98F-D71EE158381D}</Project>
       <Name>Aga.Controls</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
