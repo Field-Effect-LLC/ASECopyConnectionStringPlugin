@@ -17,7 +17,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\build\plugins\</OutputPath>
+    <OutputPath>..\..\build\plugins\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -47,6 +47,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\PluginInterface\PluginInterface.csproj">
+      <Project>{8886108c-ee97-475a-8502-08540c2b682f}</Project>
+      <Name>PluginInterface</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\SolutionItems\3rdParty\dockpanelsuite\WinFormsUI\WinFormsUI.csproj">
       <Project>{c75532c4-765b-418e-b09b-46d36b2abdb1}</Project>
       <Name>WinFormsUI</Name>
@@ -54,10 +58,6 @@
     <ProjectReference Include="..\..\MsaSQLEditor\MsaSQLEditor.csproj">
       <Project>{75a2a088-2780-48cd-9098-12ccb0598d48}</Project>
       <Name>MsaSQLEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PluginInterface\PluginInterface.csproj">
-      <Project>{8886108c-ee97-475a-8502-08540c2b682f}</Project>
-      <Name>PluginInterface</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\SolutionItems\3rdParty\TreeViewAdv\Aga.Controls\Aga.Controls.csproj">
       <Project>{E73BB233-D88B-44A7-A98F-D71EE158381D}</Project>
